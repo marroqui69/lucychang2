@@ -7,10 +7,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=MacRoman">
-        <title>Tot weerziens bij een volgende brainstorm</title>
+        <title>Tot weerziens</title>
     </head>
     <body>
-        <h1>Bedankt om te brainstormen</h1>
+        <h1>Lucy Chang groet u!</h1>
         <c:url var="login" value="/login.html" />
         <a href='<c:out value="${login}"/>'>Log opnieuw in</a>
 

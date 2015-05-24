@@ -26,10 +26,10 @@
       	<form:form action="${url}" commandName="updateReclame">   <%-- Spring form tags --%>
             <fieldset>
             	<div><label>Id:</label><form:input type="text" disabled="true" path="id"/></div>
-                <div><label>Titel:</label><form:input type="text" path="titel"/></div>
-                <div><label>Probleembeschrijving:</label><form:input type="text" path="prombleemOmschrijving"/></div>
+                <div><label>Reclamebericht:</label><form:input type="text" path="titel"/></div>
+                <div><label>Adverteerder:</label><form:input type="text" path="prombleemOmschrijving"/></div>
                 <div><label>Status:</label><form:input type="text" path="status"/></div>
-                <div><label>Oplossing:</label><form:input type="text" path="oplossing"/></div>
+                <div><label>Views:</label><form:input type="text" path="oplossing"/></div>
                 <div><input name="submit" type="submit" value="save"/></div>
             </fieldset>
         </form:form>

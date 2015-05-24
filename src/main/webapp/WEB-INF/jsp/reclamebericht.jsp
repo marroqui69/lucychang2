@@ -80,16 +80,18 @@
         <b>Id:</b>
         <c:out value="${reclamebericht.id}" /><br/>
         <div>
-	        <b>Titel:</b>
+	        <b>Reclamebericht:</b>
 	        <c:out value="${reclamebericht.titel}" /><br/>
-	        <b>Probleembeschrijving:</b>
+	        <b>Adverteerder:</b>
 	        <c:out value="${reclamebericht.prombleemOmschrijving}" /><br/>
 	        <b>status:</b>
 	        <c:out value="${reclamebericht.status}" /><br/>
-	        <b>oplossing:</b>
-	     
-	        <c:url var="del" value="${reclamebericht.oplossing}" />
-	        <a href='<c:out value="${del}"/>'>Oplossing link</a>
+	        <b>Views:</b>
+	        <c:out value="${reclamebericht.oplossing}" /><br/>	        
+	       
+	        <!-- <b>Views:</b>
+	     	<c:url var="del" value="${reclamebericht.oplossing}" />
+	        <a href='<c:out value="${del}"/>'>Oplossing link</a>-->
 	        <br/>
 	        <br/>
 	        <c:url var="update" value="/reclameberichtUpdate.html">

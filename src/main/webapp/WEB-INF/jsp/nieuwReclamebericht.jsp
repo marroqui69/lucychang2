@@ -100,10 +100,10 @@ select{
         <c:url var="url" value="/nieuwReclamebericht.html" />
         <form:form action="${url}" commandName="reclameber">   <%-- Spring form tags --%>
             <fieldset>
-                <div><label>Titel:</label><form:input path="titel"/></div>
-                <div><label>Probleembeschrijving:</label><form:input path="prombleemOmschrijving"/></div>
+                <div><label>Reclamebericht:</label><form:input path="titel"/></div>
+                <div><label>Adverteerder:</label><form:input path="prombleemOmschrijving"/></div>
                 <div><label>Status:</label><form:input path="status"/></div>
-                <div><label>Oplossing:</label><form:input path="oplossing"/></div>
+                <div><label>Views:</label><form:input path="oplossing"/></div>
                 <div><input name="submit" type="submit" value="save"/></div>
             </fieldset>
         </form:form>
