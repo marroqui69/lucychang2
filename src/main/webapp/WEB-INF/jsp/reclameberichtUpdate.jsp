@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Welkom bij Netflix</title>
+        <title>Welkom bij Lucy Chang</title>
         <style>
         	form, div{width:100%;}
         	input[type="text"]{width:70%;}

@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Welkom bij Netflix</title>
+        <title>Welkom bij Lucy Chang</title>
  <style type="text/css">
 	body {
 	  margin: 0 auto;
