@@ -76,7 +76,7 @@
     </head>
     
     <body>
-        <h1>Tutorial details</h1>
+        <h1>Reclameberict details</h1>
         <b>Id:</b>
         <c:out value="${reclamebericht.id}" /><br/>
         <div>

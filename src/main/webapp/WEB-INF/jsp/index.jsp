@@ -89,7 +89,7 @@
         <br/>
         <br/>
         <c:url var="nieuwReclameberichtUrl" value="/nieuwReclamebericht.html?id=${reclamebericht.id}" />
-        <a class="hvr-underline-from-center" href='<c:out value="${nieuwReclameberichtUrl}"/>'>Tutorial Toevoegen</a>
+        <a class="hvr-underline-from-center" href='<c:out value="${nieuwReclameberichtUrl}"/>'>Reclamebericht toevoegen</a>
         <c:url var="logoutUrl" value="/logout" />
 	    <form class="form-inline" action="${logoutUrl}" method="post">
 	      <input type="submit" value="Log out" />

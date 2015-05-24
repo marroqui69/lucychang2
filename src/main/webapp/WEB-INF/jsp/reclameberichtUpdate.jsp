@@ -19,7 +19,7 @@
     </head>
     
     <body>
-        <h1>Edit Tutorial</h1>
+        <h1>Edit Reclamebericht</h1>
         <c:url var="url" value="/update.html">
         	<c:param name="id" value="${updateReclame.id}" />
         </c:url>
